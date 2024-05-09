@@ -1,0 +1,8 @@
+BULK INSERT part     FROM '/home/sclai/project/DBABandits/TPC-H-Skew/part.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT customer FROM '/home/sclai/project/DBABandits/TPC-H-Skew/customer.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT orders   FROM '/home/sclai/project/DBABandits/TPC-H-Skew/orders.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT partsupp FROM '/home/sclai/project/DBABandits/TPC-H-Skew/partsupp.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT supplier FROM '/home/sclai/project/DBABandits/TPC-H-Skew/supplier.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT lineitem FROM '/home/sclai/project/DBABandits/TPC-H-Skew/lineitem.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT nation   FROM '/home/sclai/project/DBABandits/TPC-H-Skew/nation.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
+BULK INSERT region   FROM '/home/sclai/project/DBABandits/TPC-H-Skew/region.tbl' WITH (TABLOCK, DATAFILETYPE='char', CODEPAGE='raw', FIELDTERMINATOR = '|')
